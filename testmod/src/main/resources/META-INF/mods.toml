@@ -1,0 +1,16 @@
+modLoader = "lowcodefml"
+loaderVersion = "[41,)"
+issueTrackerURL = "${git_repo}/issues"
+license = "${license}"
+
+[[mods]]
+modId = "test_mod"
+version = "${version}"
+displayName = "Test Mod"
+displayURL = "${homepage}"
+authors = "Patricio Gonzalez Vivo and Jaredlll08"
+logoFile = "icon.png"
+description = "${description}"
+itemIcon = "minecraft:spyglass"
+displayTest = "IGNORE_ALL_VERSION"
+logoBlur = false

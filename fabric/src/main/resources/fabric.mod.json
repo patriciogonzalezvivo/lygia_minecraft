@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "name": "${mod_name}",
+  "version": "${version}",
+  "environment": "client",
+  "icon": "pack.png",
+  "authors": [
+    "Patricio Gonzalez Vivo",
+    "Jaredlll08"
+  ],
+  "license": "${license}",
+  "contact": {
+    "homepage": "${homepage}",
+    "sources": "${git_repo}",
+    "issues": "${git_repo}/issues"
+  },
+  "description": "${description}",
+  "depends": {
+    "fabricloader": ">=0.14",
+    "java": "*",
+    "minecraft": "${minecraft_version}",
+    "fabric": "*"
+  }
+}

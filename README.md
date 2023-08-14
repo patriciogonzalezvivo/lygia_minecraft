@@ -23,10 +23,18 @@ git clone --recurse-submodules https://github.com/patriciogonzalezvivo/lygia_mc_
 ## Build
 
 Building the project is as easy as running a Gradle command!
-Simply run:
+
+In windows simply run:
 ```bash
 gradlew build
 ```
+
+Whiele in linux or mac run:
+```bash
+chmod +x gradlew
+./gradlew build
+```
+
 and the outputted `.jar` (or `.zip`) files will be put in `build/libs/` folder of each subproject (`fabric/build/libs/`, `forge/build/libs/` and `resourcepack/build/libs/`).
 
 ## Testing

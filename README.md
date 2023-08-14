@@ -17,7 +17,7 @@ A minecraft port of [Lygia](https://github.com/patriciogonzalezvivo/lygia)
 To set up the Lygia MineCraft mod development environment you must first clone the repo and initialize the submodules.
 
 ```bash
-git clone --recurse-submodules https://github.com/patriciogonzalezvivo/lygia_mc_mod.git
+git clone --recurse-submodules https://github.com/patriciogonzalezvivo/lygia_minecraft.git
 ```
 
 ## Build

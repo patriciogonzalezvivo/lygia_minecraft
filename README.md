@@ -1,8 +1,42 @@
-# LYGIA version for Minecraft Mods 
+# LYGIA version for Minecraft Mods
 
-...
+# Table of Contents
 
-## License 
+- [Introduction](#introduction)
+- [Setup](#setup)
+- [Build](#build)
+- [License](#license)
+
+
+## Introduction
+
+A minecraft port of [Lygia](https://github.com/patriciogonzalezvivo/lygia)
+
+## Setup
+
+To set up the Lygia MineCraft mod development environment you must first clone the repo and initialize the submodules.
+
+```bash
+git clone --recurse-submodules https://github.com/patriciogonzalezvivo/lygia_mc_mod.git
+```
+
+## Build
+
+Building the project is as easy as running a Gradle command!
+Simply run:
+```bash
+gradlew build
+```
+and the outputted `.jar` (or `.zip`) files will be put in `build/libs/` folder of each subproject (`fabric/build/libs/`, `forge/build/libs/` and `resourcepack/build/libs/`).
+
+## Testing
+
+You can test shaders using te `testmod` project, simply replace a vanilla shader in the `src/resources/` folder and run the following command to run the game and test it.
+```bash
+gradlew Client
+```
+
+## License
 
 LYGIA is dual-licensed under the [Prosperity License](https://prosperitylicense.com/versions/3.0.0) and the [Patron License](https://lygia.xyz/license) for [sponsors](https://github.com/sponsors/patriciogonzalezvivo) and [contributors](https://github.com/patriciogonzalezvivo/lygia/graphs/contributors).
 

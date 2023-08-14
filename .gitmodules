@@ -1,3 +1,3 @@
-[submodule "common/src/main/resources/assets/lygia/shaders/include/lygia"]
-	path = common/src/main/resources/assets/lygia/shaders/include/lygia
-	url = git@github.com:patriciogonzalezvivo/lygia.git
+[submodule "resourcepack/src/main/resources/assets/minecraft/shaders/include/lygia"]
+	path = resourcepack/src/main/resources/assets/minecraft/shaders/include/lygia
+	url = https://github.com/patriciogonzalezvivo/lygia.git
